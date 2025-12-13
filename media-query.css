@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+:root {
+  --cor-primaria: #003366;
+  --cor-secundaria: #f57c00;
+  --cor-clara: #ffffff;
+  --cor-texto: #212121;
+  --cor-borda: #bdbdbd;
+}
+
+@media screen and (min-width: 769px) {
+    .conteudo-login {
+        width: 80vh;
+    }
+    .conteudo-login > h1 {
+        font-size: 2em;
+        text-align: left;
+    }
+    .conteudo-login > p {
+        text-align: left;
+    }
+    .form-grupo {
+    padding: 5px;
+    }
+    .form-grupo input {
+    padding: 10px 5px;
+    }
+        
+    .enviar > input[type=submit] {
+    margin: 0 auto;  
+    width: 60%;
+    }
+}

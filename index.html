@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cadastro - Djoba Fome</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="media-query.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+  <main>
+    <section class="conteudo-login">
+      <!-- Criar conta -->
+      <h1>Criar Conta</h1>
+      <p>Faça parte da <span>Pluripeças</span> e mude connosco a sua jornada automotiva!</p>
+      <!-- Area do Formulario Nome-->
+    <form action="#" method="post" autocomplete="on">
+      <div class="form-grupo">
+        <label for="nome">Nome completo</label>
+        <input type="text" id="nome" placeholder="Seu nome completo" required autocomplete="username" />
+      </div>
+      <!-- Area do Formulario Email-->
+      <div class="form-grupo">
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="exemplo@email.com" required autocomplete="email"/>
+      </div>
+      <!-- Area do Formulario Senha-->
+      <div class="form-grupo">
+        <label for="senha">Senha</label>
+        <input type="password" id="senha" placeholder="Crie uma senha" required autocomplete="new-password" maxlength="15" minlength="6"/>
+      </div>
+      <!-- Area do Formulario confirmar senha-->
+      <div class="form-grupo">
+        <label for="confirmar-senha">Confirmar senha</label>
+        <input type="password" id="confirmar-senha" placeholder="Confirme a senha" required maxlength="15" minlength="6"/>
+      </div>
+      <!-- Area do Formulario checkbox-->
+      <p>
+          <input type="checkbox" name="concor" id="check"> concordo com os <span>Termos de Privacidade</span>
+      </p>
+      <!-- Area do Formulario cadastrar-->
+      <div class="enviar">
+        <input type="submit" value="Cadastro" id="isub">
+      </div>
+      <!-- Já tem conta-->
+      <div class="links-adicionais">
+        <p>Já tem uma conta? <a href="../login/login.html">Entrar</a></p>
+      </div>
+    </form>
+    <!-- Area dos links para redes sociais -->
+    <!-- <ul class="social-icons">
+      <li id="facebook"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+      <li id="instagram"><a href="#"><i class="fab fa-instagram"></i></a></li>
+      <li id="twitter"><a href="#"><i class="fab fa-twitter"></i></a></li>
+    </ul> -->
+    </section>
+  </main>
+</body>
+</html>

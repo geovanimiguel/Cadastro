@@ -1,0 +1,199 @@
+@charset "UTF-8";
+
+:root {
+  --cor-primaria: #003366;
+  --cor-secundaria: #f57c00;
+  --cor-clara: #ffffff;
+  --cor-texto: #212121;
+  --cor-borda: #bdbdbd;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html, body {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(45deg, var(--cor-primaria), #001d3d);
+}
+
+main {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+
+  width: 100vw;
+  height: 100vh;
+}
+
+.conteudo-login {
+  height: 600px;
+  width: 300px; /* altura e largura do container*/
+  background-color: var(--cor-clara);
+  padding: 20px;
+  overflow: hidden;
+  border-radius: 25px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+  
+  transition: width .3s, height .3s;
+  transition-timing-function: ease;
+}
+
+
+.conteudo-login > h1 {
+  text-align: center;
+  padding: 5px;
+  color: var(--cor-primaria);
+  font-size: 1.9em;
+}
+  
+.conteudo-login > p {
+  text-align: center;
+  color: var(--cor-texto);
+  font-size: 1em;
+}
+
+.form-grupo label {
+  padding: 5px;
+  color: var(--cor-primaria);
+  font-size: 0.9em;
+  letter-spacing: 0.5px;
+}
+
+.form-grupo input {
+  width: 100%;
+  padding: 10px 12px;
+  color: var(--cor-texto);
+  border-radius: 10px;
+  border: 2px solid var(--cor-borda);
+  font-size: 16px;
+  background-color: #f5f5f5;
+  transition: all 0.3s ease;
+}
+  
+.form-grupo input:focus {
+  outline: none;
+  border-color: var(--cor-secundaria);
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(245, 124, 0, 0.4);
+}
+
+.form-grupo input::placeholder {
+  color: #888;
+}
+
+span {
+  color: #e65100;
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+p {
+  padding: 10px;
+}
+
+.enviar > input[type=submit] {
+  display: block;  
+  width: 100%;
+  height: 40px;
+  background-color: #e65100;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bolder;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  }
+  
+  .enviar > input[type=submit]:hover {
+  transform: translateY(-3px);
+  background-color: #e65100;
+  }
+  
+  .links-adicionais {
+  text-align: center;
+  margin-top: 5px;
+  }
+  
+  .links-adicionais a {
+    color: var(--cor-primaria);
+  text-decoration: none;
+  font-size: 0.9em;
+  transition: color 0.3s ease;
+}
+
+.links-adicionais a:hover {
+  color: var(--cor-secundaria);
+}
+
+
+
+
+
+
+
+/*  Icones das redes sociais, senti que estão destorcendo o lealt da page! 
+.social-icons {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-top: 40px;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  position: absolute;
+  top: 125px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.social-icons li {
+  display: inline-block;
+  }
+  
+  .social-icons a {
+    margin: 10px;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 20px;
+  background: #eee;
+  color: var(--cor-primaria);
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  background: var(--cor-secundaria);
+  color: white;
+  box-shadow: 0 0 8px rgba(245, 124, 0, 0.5);
+  }
+  
+  #facebook a:hover {
+  background: #1DA1F2;
+  color: white;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.382);
+}
+
+#twitter a:hover {
+  background: white;
+  color: #1DA1F2;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.382);;
+}
+
+#instagram a:hover {
+  background: linear-gradient(45deg, #6D59C0, #893590, #E33F5F, #FDD579);
+  color: white;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.382);
+}
+*/
