@@ -44,7 +44,6 @@ main {
   transition-timing-function: ease;
 }
 
-
 .conteudo-login > h1 {
   text-align: center;
   padding: 5px;
@@ -133,67 +132,3 @@ p {
 .links-adicionais a:hover {
   color: var(--cor-secundaria);
 }
-
-
-
-
-
-
-
-/*  Icones das redes sociais, senti que estão destorcendo o lealt da page! 
-.social-icons {
-  display: flex;
-  flex-flow: row nowrap;
-  margin-top: 40px;
-  list-style: none;
-  padding: 0;
-  display: flex;
-  position: absolute;
-  top: 125px;
-  left: 50%;
-  transform: translate(-50%);
-}
-
-.social-icons li {
-  display: inline-block;
-  }
-  
-  .social-icons a {
-    margin: 10px;
-  border-radius: 50%;
-  width: 35px;
-  height: 35px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
-  font-size: 20px;
-  background: #eee;
-  color: var(--cor-primaria);
-  transition: 0.3s;
-}
-
-.social-icons a:hover {
-  background: var(--cor-secundaria);
-  color: white;
-  box-shadow: 0 0 8px rgba(245, 124, 0, 0.5);
-  }
-  
-  #facebook a:hover {
-  background: #1DA1F2;
-  color: white;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.382);
-}
-
-#twitter a:hover {
-  background: white;
-  color: #1DA1F2;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.382);;
-}
-
-#instagram a:hover {
-  background: linear-gradient(45deg, #6D59C0, #893590, #E33F5F, #FDD579);
-  color: white;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.382);
-}
-*/
